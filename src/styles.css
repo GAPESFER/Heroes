@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.6rem !important;
+  line-height: 2;
+}
+
+/* Globals */
+.container {
+  width: min(95%, 150rem);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-width {
+  width: 100%;
+}
